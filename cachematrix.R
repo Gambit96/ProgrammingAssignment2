@@ -3,8 +3,8 @@
 
 ## Write a short comment describing this function
 
-getwd()
-setwd("C:/weitzun/Coursera/Git/ProgrammingAssignment2")
+#getwd()
+#setwd("C:/weitzun/Coursera/Git/ProgrammingAssignment2")
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -37,7 +37,7 @@ cacheSolve <- function(x, ...) {
 }
 
 
-#Tesst my function
+#Test my function
 
 source("C:/weitzun/Coursera/Git/ProgrammingAssignment2/cachematrix.R")
 my_matrix <- makeCacheMatrix(matrix(1:4, 2, 2))
@@ -53,3 +53,4 @@ cacheSolve(my_matrix)
 cacheSolve(my_matrix)
 my_matrix$getInverse()
 
+#Done,thank you very much!!
